@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whale Meme Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🐋 WHALE TRACKER</h1>
+            <div class="status">
+                <span class="dot green"></span> LIVE | <span class="dot green"></span> REAL-TIME
+            </div>
+        </header>
+
+        <section id="alerts" class="hidden">
+            <h2>🚨 COORDINATED WHALE BUY</h2>
+            <div id="alert-content"></div>
+        </section>
+
+        <section>
+            <h2>🔥 TRENDING MEME COINS</h2>
+            <div id="loading">Memuat data on-chain...</div>
+            <div id="coin-list" class="grid"></div>
+        </section>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
